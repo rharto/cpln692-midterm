@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    overflow: hidden;
+    font-family: colfax, helvetica, arial, sans-serif;
+}
+
+p.main {
+  font-size: 24px;
+}
+
+.map {
+    position: absolute;
+    right: 0px;
+    left: 450px;
+    height: 100%;
+    top: 0;
+}
+
+.sidebar {
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    padding: 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+.legend {
+  position: absolute;
+  background-color: #fff;
+  z-index: 2000;
+  bottom: 23px;
+  right: 10px;
+  width: 200px;
+  height: 150px;
+  width: 180px;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+#leg-title {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: left;
+  left: 20px;
+  top: 20px;
+  position: relative;
+}
+
+.leg-list li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 15px;
+    border: 0px solid #999;
+    }
+
+.leg-list {
+  display: inline;
+  padding-left: 10px;
+  list-style: none;
+  align-content: left;
+}
+
+#next {
+  position: absolute;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  bottom: 100px;
+  right: 40px;
+  border-radius: 18px;
+}
+
+#next:hover {
+  background-color: black;
+  color: white;
+}
+
+#back {
+  position: absolute;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  bottom: 100px;
+  left: 40px;
+  border-radius: 18px;
+  display:none;
+}
+
+#back:hover {
+  background-color: black;
+  color: white;
+}
